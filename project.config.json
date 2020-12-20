@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "taro-demo",
+  "description": "taro-demo",
+  "appid": "touristappid",
+  "setting": {
+    "useApiHook": true
+  },
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {}
+}
