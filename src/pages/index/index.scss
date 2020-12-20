@@ -1,0 +1,28 @@
+.heart {
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  right: 0px;
+
+  width: 160px;
+  height: 160px;
+  background-image: url(./heart.png);
+  background-repeat: no-repeat;
+  background-size: 2900%; // 爱心图片的像素大小为 2900*100
+
+  &.animation {
+    opacity: 1;
+    animation: move 0.8s linear;
+    animation-fill-mode: forwards; // 动画结束时固定在最后一帧
+    animation-timing-function: steps(28);
+  }
+}
+
+@keyframes move {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
