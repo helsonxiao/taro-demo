@@ -1,0 +1,31 @@
+video {
+  width: 100vw;
+  height: 100vh;
+}
+
+.heart {
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  right: 0px;
+
+  background-image: url('./heart.png');
+  background-size: 2900%; // 2900 * 100;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+}
+
+.heart.animated {
+  animation: move 0.8s linear forwards;
+  animation-timing-function: steps(28);
+}
+
+@keyframes move {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
