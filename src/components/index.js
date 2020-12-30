@@ -1,0 +1,5 @@
+export { BasicPanel } from './basic'
+// export { BasicPanel as default } from './basic'
+// export { default as BasicPanel } from './basic'
+export { default as HOCPanel } from './hoc'
+export { HOCPanel as default } from './hoc'

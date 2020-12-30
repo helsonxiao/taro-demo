@@ -4,7 +4,7 @@
   "description": "taro-demo",
   "appid": "touristappid",
   "setting": {
-    "useApiHook": true
+    "scopeDataCheck": false
   },
   "compileType": "miniprogram",
   "simulatorType": "wechat",

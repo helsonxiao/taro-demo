@@ -1,0 +1,19 @@
+.hoc-panel {
+  margin-bottom: 32rpx;
+}
+
+.title {
+  font-size: 48rpx;
+  padding: 20px 40rpx;
+  background-color: #fafbfc;
+}
+
+.content {
+  padding: 20rpx 40rpx 0;
+
+  .at-tag {
+    margin-right: 10rpx;
+    position: relative;
+    bottom: 5rpx;
+  }
+}
