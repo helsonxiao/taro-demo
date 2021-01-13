@@ -38,13 +38,13 @@
     "@babel/runtime": "^7.7.7",
     "@tarojs/cli": "3.0.19",
     "@tarojs/components": "3.0.19",
+    "@tarojs/react": "3.0.19",
     "@tarojs/runtime": "3.0.19",
     "@tarojs/taro": "3.0.19",
     "lodash": "4.17.15",
-    "@tarojs/react": "3.0.19",
     "react": "^16.10.0",
     "react-dom": "^16.10.0",
-    "taro-ui": "^3.0.0-alpha.3"
+    "taro-ui": "^3.0.0-alpha.9"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
